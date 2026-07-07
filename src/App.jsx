@@ -6,10 +6,10 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+      <nav className="nav">
+        <Link to="/">Home </Link>
+        <Link to="/about">About </Link>
+        <Link to="/contact">Contact </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
